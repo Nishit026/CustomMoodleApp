@@ -37,7 +37,6 @@
     "ionic:serve": "cross-env-shell ./scripts/serve.sh",
     "ionic:build:before": "gulp"
   },
-
   "dependencies": {
     "@angular/animations": "10.0.14",
     "@angular/common": "10.0.14",
