@@ -1,5 +1,4 @@
 {
-
     /**
      * Formatting.
      */
@@ -15,7 +14,6 @@
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-
     /**
      * Config files.
      */
@@ -23,5 +21,5 @@
         "moodle.config.json": "jsonc",
         "moodle.config.*.json": "jsonc",
     },
-
+    "java.configuration.updateBuildConfiguration": "interactive",
 }
