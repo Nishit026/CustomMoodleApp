@@ -7,5 +7,11 @@
   "hooks": {
     "build:before": "./scripts/copy-assets.js",
     "serve:before": "./scripts/copy-assets.js"
-  }
+  },
+  "proxies": [
+    {
+      "path": "/localhost",
+      "proxyUrl": "http://localhost:26309"
+    }
+  ]
 }
