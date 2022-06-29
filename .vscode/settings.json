@@ -22,4 +22,7 @@
         "moodle.config.*.json": "jsonc",
     },
     "java.configuration.updateBuildConfiguration": "interactive",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 }
